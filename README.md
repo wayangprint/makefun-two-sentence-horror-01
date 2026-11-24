@@ -6,7 +6,7 @@
 
 Write the scariest horror story you can in exactly two sentences. Free entry, blind judging, and the best story takes the reward.
 
-> "My son's teacher called to say he draws the same house every day: ours, with a man standing at the upstairs window. We live in a one-story house, and my son has never met his father."
+> "The nursery camera sends me a photo every time it detects motion in the crib. The latest one shows me, asleep in it — and I'm typing this from the kitchen."
 
 ## Run it
 
@@ -14,7 +14,7 @@ Write the scariest horror story you can in exactly two sentences. Free entry, bl
 node main.ts
 ```
 
-The program writes the story to `/output/entry.txt` (182 characters, exactly two sentences, UTF-8). Deterministic: the same bytes on every run. Node standard library only, no network.
+The program writes the story to `/output/entry.txt` (155 characters, exactly two sentences, UTF-8). Deterministic: the same bytes on every run. Node standard library only, no network.
 
 ---
 
