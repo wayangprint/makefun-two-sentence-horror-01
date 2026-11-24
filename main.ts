@@ -4,10 +4,10 @@
 import { mkdirSync, writeFileSync } from "node:fs";
 
 const STORY =
-  "My son's teacher called to say he draws the same house every day: ours, with a man standing at the upstairs window. We live in a one-story house, and my son has never met his father.";
+  "The nursery camera sends me a photo every time it detects motion in the crib. The latest one shows me, asleep in it — and I'm typing this from the kitchen.";
 
 // Gate: /output/entry.txt must be UTF-8 text of 1 to 400 characters, not only
-// whitespace. The story above is 182 characters, exactly two sentences,
+// whitespace. The story above is 155 characters, exactly two sentences,
 // including the trailing newline written below.
 
 mkdirSync("/output", { recursive: true });
